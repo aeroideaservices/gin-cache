@@ -1,6 +1,6 @@
-module github.com/chenyahui/gin-cache
+module github.com/aeroideaservices/gin-cache
 
-go 1.13
+go 1.19
 
 require (
 	github.com/gin-gonic/gin v1.7.7

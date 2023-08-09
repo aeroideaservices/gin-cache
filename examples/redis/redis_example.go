@@ -3,10 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/chenyahui/gin-cache"
-	"github.com/chenyahui/gin-cache/persist"
+	"github.com/aeroideaservices/gin-cache/persist"
 	"github.com/gin-gonic/gin"
-	"github.com/go-redis/redis/v8"
 )
 
 func main() {

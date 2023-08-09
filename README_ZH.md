@@ -1,9 +1,9 @@
 # gin-cache 
-[![Release](https://img.shields.io/github/release/chenyahui/gin-cache.svg?style=flat-square)](https://github.com/chenyahui/gin-cache/releases)
-[![doc](https://img.shields.io/badge/go.dev-doc-007d9c?style=flat-square&logo=read-the-docs)](https://pkg.go.dev/github.com/chenyahui/gin-cache)
-[![goreportcard for gin-cache](https://goreportcard.com/badge/github.com/chenyahui/gin-cache)](https://goreportcard.com/report/github.com/chenyahui/gin-cache)
+[![Release](https://img.shields.io/github/release/aeroideaservices/gin-cache.svg?style=flat-square)](https://github.com/aeroideaservices/gin-cache/releases)
+[![doc](https://img.shields.io/badge/go.dev-doc-007d9c?style=flat-square&logo=read-the-docs)](https://pkg.go.dev/github.com/aeroideaservices/gin-cache)
+[![goreportcard for gin-cache](https://goreportcard.com/badge/github.com/aeroideaservices/gin-cache)](https://goreportcard.com/report/github.com/aeroideaservices/gin-cache)
 ![](https://img.shields.io/badge/license-MIT-green)
-[![codecov](https://codecov.io/gh/chenyahui/gin-cache/branch/main/graph/badge.svg?token=MX8Z4D5RZS)](https://codecov.io/gh/chenyahui/gin-cache)
+[![codecov](https://codecov.io/gh/aeroideaservices/gin-cache/branch/main/graph/badge.svg?token=MX8Z4D5RZS)](https://codecov.io/gh/aeroideaservices/gin-cache)
 
 [English](README_ZH.md) | 🇨🇳中文
 
@@ -21,7 +21,7 @@
 ## 安装
 
 ```
-go get -u github.com/chenyahui/gin-cache
+go get -u github.com/aeroideaservices/gin-cache
 ```
 
 ## 例子
@@ -32,8 +32,8 @@ package main
 import (
 	"time"
 
-	"github.com/chenyahui/gin-cache"
-	"github.com/chenyahui/gin-cache/persist"
+	"github.com/aeroideaservices/gin-cache"
+	"github.com/aeroideaservices/gin-cache/persist"
 	"github.com/gin-gonic/gin"
 )
 
@@ -62,8 +62,8 @@ package main
 import (
 	"time"
 
-	"github.com/chenyahui/gin-cache"
-	"github.com/chenyahui/gin-cache/persist"
+	"github.com/aeroideaservices/gin-cache"
+	"github.com/aeroideaservices/gin-cache/persist"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
 )
