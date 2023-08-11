@@ -1,10 +1,10 @@
 package main
 
 import (
-	"time"
-
+	cache "github.com/aeroideaservices/gin-cache"
 	"github.com/aeroideaservices/gin-cache/persist"
 	"github.com/gin-gonic/gin"
+	"time"
 )
 
 func main() {

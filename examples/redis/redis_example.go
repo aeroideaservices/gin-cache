@@ -1,6 +1,8 @@
 package main
 
 import (
+	cache "github.com/aeroideaservices/gin-cache"
+	"github.com/go-redis/redis/v8"
 	"time"
 
 	"github.com/aeroideaservices/gin-cache/persist"
